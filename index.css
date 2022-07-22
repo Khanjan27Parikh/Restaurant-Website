@@ -1,0 +1,71 @@
+/* ******* Header ****** */
+.bg{
+    background-image: url(./assets/bg.jpg);
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+#logo{
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 150px;
+}
+#heading{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 240px;
+    color: #12622f;
+    background-color: #f3f2f2;
+}
+.search{
+    display: flex;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 300px;
+}
+.loc{
+    position: absolute;
+    display: flex;
+    background-color: rgb(190, 185, 185);
+    border: 1px solid black;
+    align-items: center;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#loc_text{
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+}
+#loc_text::placeholder{
+    color: white;
+}
+.rst{
+    position: absolute;
+    display: flex;
+    background-color: rgb(190, 185, 185);
+    border: 1px solid black;
+    margin-left: 280px;
+    align-items: center;
+    height: 35px;
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#search_icon{
+    color: white;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+#search_rst{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+#search_rst::placeholder{
+    color: white;
+}
